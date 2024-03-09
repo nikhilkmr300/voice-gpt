@@ -1,0 +1,4 @@
+*.webm
+.ipynb_checkpoints
+.venv
+.vscode
