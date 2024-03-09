@@ -12,6 +12,9 @@ from langchain.schema import SystemMessage
 from model import transcribe
 
 
+st.set_page_config(page_title="VoiceGPT", page_icon="🎙️")
+
+
 @dataclass
 class ChatRecord:
     message: str
